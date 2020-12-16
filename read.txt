@@ -1,0 +1,35 @@
+Hello there, 
+
+Welcome to my second portfolio of work. 
+In this website , I made use of HTML , CSS and JAVASCRIPT in order to showcase
+my knowledge in all three languages. 
+
+This was a very enjoyable project to work on as it allowed for large amounts of animation.
+I have not made use of online libaries for this project as I wanted to show that I am able 
+to create a website without the assistance of online libaries such as Bootstrap.I did use
+fontAwesome for the icons found on the 'contact page'.
+
+This website has 5 pages which include:
+1.index.html  ( main / home page)
+2.about,html:
+This page will hopefully enlighten you on macadamia trees and some of the processes involved
+with this type of farming.
+3.team.html
+This page will tell you a little bit about the team involved with this particular farm.
+4.gallery.html
+This page will serve to showcase a gallery of images from the farm itself. 
+contact.html
+This page serves to show the front-end developer skills I have acquired to create a contact form with 
+elements of interactivity.
+
+
+Styling and interactivity:
+design.css 
+design.js
+
+Responsiveness:
+I have made use of media queries and google chromes developer tools to ensure that
+my website works effectively on multiple devices.
+
+Images: 
+Images can be located in the 'images' file within this main 'BETHEL FARM' file.

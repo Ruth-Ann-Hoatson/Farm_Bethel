@@ -1,0 +1,351 @@
+
+/* Index.html page including some styles for the contact page */
+.header, .contact{
+    display:block;
+    width:23rem;
+    height: 18rem;
+    margin:auto;
+    z-index:1000;
+    opacity:10;
+    background-color: burlywood;
+    padding:14px;
+    margin-top:150px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.contact {
+    width:43%;
+}
+
+.contact{
+    padding:23px;
+}
+
+.heading{
+margin-left:2rem;
+
+}
+
+.navbar_link{
+display:block;
+margin-top:5px;
+padding:10px;
+background-color: bisque; 
+margin-left:-2.2rem;  
+}
+
+a:link{
+    text-decoration: none;
+    color:brown;
+    
+}
+
+a:visited{
+    text-decoration: none;
+    color:brown;
+}
+
+.footer{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+margin-bottom:5px;
+
+}
+
+.copyright{
+font-size:13px;
+color:blanchedalmond;
+margin-left:0.5rem;
+}
+
+/* Background Images */
+body{
+    background-image: url('images/background_img.png');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    opacity:3;
+
+}
+
+/* Gallery Section */
+img{
+    width: 30%;
+    transition:transform .2s;
+    
+    /* margin: 1.6666666%; */
+    margin: calc(10%/6);
+
+}
+
+img:hover{
+    transform:scale(.8);
+}
+
+.gallery{
+    background-color: blanchedalmond;
+}
+
+/* Team Section */
+.card{
+    display: block;
+    opacity:2;
+    position:relative;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.card_heading{
+padding:14px;
+background-color: burlywood;
+text-align: center;
+color:whitesmoke;
+width:30rem;
+margin:2rem auto;
+}
+.card_img{
+width:50%;
+margin-top:3rem;
+margin-left:5rem;
+border-radius: 3%;
+transition: all .5s ease ;
+
+}
+.card_img:hover{
+transform:translateY(0.25em);
+
+}
+
+.card_container {
+width:23%;
+position:absolute;
+top:10rem;
+right:8rem;
+background-color:cornsilk;
+opacity:3;
+padding:.3rem;
+color:brown;
+
+}
+
+.card_quote{
+    margin:1rem;
+    font-style: oblique;
+}
+
+/* Contact Page */
+
+
+
+.contact_form{
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 1rem;
+    margin:.6rem;
+    text-align: end;
+    background-color: bisque;
+    outline-style: none;
+      
+}
+
+
+ .contact_first{
+     margin-top:.5rem;
+ }
+
+.contact_third{
+    text-align:center;
+    margin:auto;
+    margin-top:1rem;
+}
+
+.contact_button{
+    margin-top:-1rem;
+}
+
+.contact_img{
+display:block;
+float:right;
+margin-top:-5rem;
+margin-right:3rem;
+    width:70px;
+    height:70px;
+}
+/* 
+Font Awesome Icons: */
+.fab{
+    margin-top:-5rem;
+    margin-left:.9rem;
+    color:grey;
+    margin-right:2rem;
+}
+.fa-facebook-f{
+    float:right;
+    margin-top:-8rem;
+    margin-right:2rem;
+    
+}
+.fa-instagram{
+    float:right;
+    
+    
+}
+
+
+/* About section */
+
+.about img {
+    width:80px;
+    margin:auto;
+    margin-top:10rem;
+    float:right;
+}
+.about_first{
+    font-family: 'Quicksand', sans-serif;
+    width: 50%;
+    margin:auto;
+    margin-top:10rem;
+    margin-bottom:10rem;
+    background-color: burlywood;
+    padding:2rem;
+    transition: all .5s ease ;
+
+}
+
+.about_first:hover{
+    transform:translateY(180deg);
+}
+
+.about_second{
+    width:18%;
+    margin:auto;
+    padding:1rem;
+    display:block;
+    list-style-type:none;
+    background-color: darkkhaki;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top:-8rem;
+}
+
+.about_poll{
+    list-style-type:none;
+    padding:.5rem;  
+}
+.about_answer {
+    padding:.3rem;
+}
+.about_btn{
+    padding:.6rem;
+    border-radius: 2rem;
+    outline: none;
+}
+
+/* 
+/* Media Queries: 768px  */
+@media all and (max-width: 768px){
+
+.contact{
+    padding-bottom:5rem;
+    margin-bottom:10rem;
+}
+    .card_container {
+        width:45%; 
+        top:5rem;
+        right:0rem;    
+}
+
+.about_second{
+    width:100%;
+
+}
+
+.about img {
+    width:80px;
+    float:left;
+
+}
+
+.card_img{
+    margin-top:-1rem;
+    width:40%;
+
+    }
+}
+
+/* Media queries : 425px */
+@media all and (max-width:425px){
+
+
+    .header,.contact{
+        width:15rem;
+        padding:25px;
+        padding-bottom:5rem;
+        margin-top:5rem;
+       
+       
+    }
+
+    img{
+        width: 95%;
+        
+    }
+
+ 
+    .contact_img{
+        margin-right:1rem;
+
+        }
+
+.card_img{
+    width:50%;
+    margin-left:2.5rem;
+    float:left;
+    }
+
+
+    .card_container {
+        width:95%; 
+         
+}
+
+.card_heading{
+    padding:2px;
+    width:100%;
+    }
+
+.about img {
+   display:none;
+    }
+
+.about_first{
+    width: 80%;
+    margin-top:1rem;
+        
+    }
+
+    .card_container {
+        width:95%; 
+        margin:auto;
+        top:5rem;
+         
+}
+
+    .card_img{
+        width:95%;
+        margin-top:18rem;
+        margin-left:.5rem;
+       
+        
+        }
+
+}
+/* Media Queries: 320px  */
+@media all and (max-width:320px){
+  
+
+    .copyright{
+       text-align:center;
+       } 
+
+}
+
